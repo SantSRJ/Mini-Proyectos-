@@ -1,0 +1,214 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+
+/* Contenedores base */
+.contenedorPrincipal{
+    width: 100%;
+    height: 100%;
+}
+.subContenedor{
+    
+        width: 100%;
+        height: 100%;
+}
+/* Estilos para el Menu */
+
+.bar{
+    width: 100%;
+    height: 90px;
+    background-color: #3b5998;
+}
+
+.cont_face{
+    float: left;
+    width: 50%;
+}
+.credenciales{
+    float: right;
+    width: 40%;
+    height: 100%;
+    display: flex;
+}
+/* Credenciales */
+.correo, .Correo{
+    margin: 20px;
+    margin-top:40px;
+}
+
+.correo{
+    height: 20px;
+    box-shadow: 1px 0px 1px black;
+}
+.password{
+    height: 20px;
+    box-shadow: 1px 0px 1px black;
+}
+
+.Password, .password{
+    margin: 20px;
+    margin-top: 40px;
+}
+.login{
+    margin: 20px;
+    margin-top: 40px;
+    height: 20px;
+    width: 40px;
+    background-color: #4364a9;
+    border: none;
+    box-shadow: 1px 2px 2px black;
+    color: white;
+}
+.Correo, .Password{
+    color: white;
+    font-family: 'lato', sans-serif;
+}
+.facebook{
+    margin: 15px;
+    font-size: 50px;
+    color: white;
+    font-family: 'lato', sans-serif;
+
+}
+
+/* Contenido del Formulario - Contenedor Derecho */
+
+.formulario{
+    float: right;
+    width: 50%;
+}
+
+form{
+    height: 70%;
+    width: 100%;
+    margin: 40px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+h1{
+    font-size: 40px;
+    margin: 50px;
+    margin-left: 60px;
+    margin-bottom: 2px;
+}
+h3{
+    margin: 20px;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+/* Inputs */
+
+.Primer, .Segundo{
+    margin: 30px;
+    height: 50px;
+    margin-left: 50px;
+    margin-top: 10px;
+    width: 42%;
+    padding: 5px;
+    background-color: rgb(128, 128, 128,0.1);
+    border: 1px solid black;
+}
+.Segundo{
+    margin-left: 3px;
+}
+
+/* ContenedorIzquierdo */
+.contenedor-izquierdo{
+    float: left;
+    width: 30%;
+}
+.Email{
+    margin-left: 50px;
+    width: 89%;
+    height: 50px;
+    padding: 5px;
+    background-color: rgb(128, 128, 128,0.1);
+    border-radius: 5px;
+    border: 1px solid black;
+}
+h4{
+    margin-left: 70px;
+    margin-top: 30px;
+    width: 50%;
+}
+
+.cumple{
+    margin-left: 50px;
+    width: 20%;
+    height: 35px;
+    padding: 10px;
+    background-color: rgb(128, 128, 128,0.1);
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.info{
+    margin-left: 60px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Generos */
+
+.mujer,.Female, .Male,.Hombre{
+    margin-left: 50px;
+    margin-top: 40px;
+}
+.mujer,.Hombre{
+    background-color: rgb(128, 128, 128,0.1);
+    width: 30px;
+    height: 30px;
+    margin-top: 50px;
+}
+
+.Female,.Male{
+    margin-right: 40px;
+    margin-top:10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* Condiciones y boton */
+
+.condiciones{
+    margin-left: 50px;
+    margin-top: 20px;
+    font-weight: bolder;
+    margin-right: 30px;
+}
+
+.register{
+    margin-left: 50px;
+    margin-top: 40px;
+    width: 300px;
+    height: 60px;
+    background-color: #00AD1A;
+    color: white;
+    font-size: 30px;
+    text-shadow: 1px 2px 1px black;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px black;
+    font-family: 'lato', sans-serif;
+}
+
+/* Contenedor-Izquierdo */
+
+.frase{
+    margin: 30px;
+    margin-top: 80px;
+    margin-left: 50px;
+    width: 100%;
+    font-size: 40px;
+}
+
+/* hover */
+
+input:hover{
+    background-color: crimson;
+}
